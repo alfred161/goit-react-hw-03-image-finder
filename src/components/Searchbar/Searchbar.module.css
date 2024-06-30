@@ -1,4 +1,4 @@
-.Searchbar {
+.searchbar {
   top: 0;
   left: 0;
   position: sticky;
@@ -17,7 +17,7 @@
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.SearchForm {
+.searchForm {
   display: flex;
   align-items: center;
   width: 100%;
@@ -27,12 +27,12 @@
   overflow: hidden;
 }
 
-.SearchForm-button {
+.searchFormButton {
   display: inline-block;
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
+  background-image: url('https://img.icons8.com/?size=100&id=132&format=png&color=000000');
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,11 +42,11 @@
   outline: none;
 }
 
-.SearchForm-button:hover {
+.searchFormButton:hover {
   opacity: 1;
 }
 
-.SearchForm-button-label {
+.searchForm-button-label {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -58,7 +58,7 @@
   border: 0;
 }
 
-.SearchForm-input {
+.searchFormInput {
   display: inline-block;
   width: 100%;
   font: inherit;
@@ -67,9 +67,10 @@
   outline: none;
   padding-left: 4px;
   padding-right: 4px;
+  line-height: 1.5;
 }
 
-.SearchForm-input::placeholder {
+.searchFormInput::placeholder {
   font: inherit;
   font-size: 18px;
 }
